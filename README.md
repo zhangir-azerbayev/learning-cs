@@ -2,7 +2,7 @@
 Learning computer science, properly. High-level overview of computer architecture; data structures and algorithms in Rust.
 
 Outline: 
-1. Computer architecture (Hennessey)
+1. Computer architecture (follow *Computer Architecture: A Quantitative Approach*, Patterson and Hennessy, 5th edition)
     * Chapter 1: Fundamentals
     * Appendix B: Memory Hierarchy
     * Appendix C: Pipelining
