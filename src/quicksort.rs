@@ -17,7 +17,7 @@ fn quicksort<T: Ord>(slice: &mut [T]) {
     let (pivot, rest) = slice.split_first_mut().expect("slice is non-empty");
     let mut left = 0;
     let mut right = rest.len() - 1;
-    // <= because we want left and right to cross on break
+    // Use <= rather than < because we want left and right to cross on break
     while left <= right {
         if &rest[left] <= pivot {
             // already on correct side
