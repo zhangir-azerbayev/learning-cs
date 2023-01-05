@@ -1,7 +1,9 @@
+use std::fmt::Debug;
+
 pub trait Sorter {
     fn sort<T>(&self, slice: &mut [T])
     where
-        T: Ord + Clone;
+        T: Ord + Clone + Debug;
 }
 
 mod bubblesort;
@@ -9,6 +11,7 @@ mod insertionsort;
 mod mergesort;
 mod quicksort;
 mod selectionsort;
+mod gnomesort; 
 
 #[cfg(test)]
 mod tests {
