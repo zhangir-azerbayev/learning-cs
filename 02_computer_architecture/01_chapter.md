@@ -14,6 +14,8 @@ Two kinds of parallelism in applications:
 - *Data-level parallelism (DLP): many data items can be operated on at the same time. 
 - *Task-level parallelism (TLP)*: independent tasks can be executed at the same time. 
 
+TODO: revisit these once you understand them better. 
+
 Computer hardware exploits these kinds of application parallelism in four ways: 
 1. Instruction-Level Parallelism: exploits data-level parallelism with compiler help using ideas like pipelining (?) and speculative execution (?)
 2. *Vector architectures and GPUs*: Exploits data-level parallelism by applying a single instruction to a collection of data in parallel. 
